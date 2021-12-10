@@ -11,6 +11,7 @@ public class JwtDemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(JwtDemoApplication.class, args);
+		//it is sample jwt java web token application
 	}
 
 	@Bean
