@@ -16,7 +16,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @Configuration
 @EnableWebSecurity
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter{
-
+//create  config class then extend websecurityconfigureradapter class then override configure method of authenticationamagerbuilder param it take details from userservice
     @Autowired
     private UserService userService;
 
