@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 @Service
 public class UserService implements UserDetailsService {
-
+//implement userdetails service of spring specurity and override method from user name we will get data from db
     @Override
     public UserDetails loadUserByUsername(String userName) throws UsernameNotFoundException {
 
